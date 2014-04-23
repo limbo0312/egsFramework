@@ -248,14 +248,14 @@ return self; \
 #define DebugLogSize(size) NSLog(@"My view size: %@", NSStringFromCGSize(size));
 
 //==>免除vcView全屏情况
-//#import "UIViewController+ios7match.h"
+#import "UIViewController+ios7match.h"
 
 //==>便携
 #import "EAlertView.h"
 
 
 //==>正圆 圆角 category
-//#import "UIView+perfectCircle.h"
+#import "UIView+perfectCircle.h"
 
 
 //==>宏使用 MLNav_dragback
@@ -275,13 +275,13 @@ return self; \
 //#define USER_OBJ [userInstanceObj shareUserInstance]
 
 //==>
-#define SERVER_TIME_FORMAT  @"yyyy-MM-dd'T'HH:mm:ss.SSSZ'Z'"
+//#define SERVER_TIME_FORMAT  @"yyyy-MM-dd'T'HH:mm:ss.SSSZ'Z'"
 
 //==>
 //#define NetStatus_OffNotification @"NetStatusOffNotification"
 
-//==>方便的工具包----uiview
-#import "UIView+helper.h"
+//==>方便的工具包
+//#import "BGUtilities.h"
 
 //==>
 //#import "ALAlertBanner.h"
