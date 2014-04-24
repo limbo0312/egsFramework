@@ -43,11 +43,14 @@
 
 //DEBUG  模式下打印日志,当前行
 #ifdef DEBUG
-//#   define DebugLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#define DebugLog(fmt, ...) [innerConsole log:(@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__];  //iconsole式移除：ver1 notWorking  (...)///
+#   define DebugLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#   define InnerLog(fmt, ...) [innerConsole log:(@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__];  //iconsole式移除：ver1 notWorking  (...)///
+
 #define DebugLog_Ver2(fmt, ...) [innerConsole log:(@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__];
 #else
 #   define DebugLog(...)
+#   define InnerLog(...)
+#   define DebugLog_Ver2(...)
 #endif
 
 

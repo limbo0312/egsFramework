@@ -225,7 +225,15 @@ void exceptionHandler(NSException *exception);
 	
     if ([self sharedConsole].enabled)
     {
-        NSString *message = [[NSString alloc] initWithFormat:format arguments:argList];
+        NSString *message ;
+        @try {
+            message = [[NSString alloc] initWithFormat:format arguments:argList];
+        }
+        @catch (NSException *exception) {
+            NSLog(@"exception is %@",exception);
+        }
+        
+        
         
         NSString *messageWithoutUnicode = [NSString stringByReplaceUnicode:message];//===>输出汉字的log
         
@@ -624,7 +632,7 @@ void exceptionHandler(NSException *exception)
         [mDicUser removeObjectForKey:iConsoleKey];
         [mDicUser removeObjectForKey:@"iConsoleLog"];
         
-        DebugLog_Ver2(@"stanUserPlist:%@",mDicUser);
+        InnerLog(@"stanUserPlist:%@",mDicUser);
         
     }
     else if(buttonIndex == 4)//====>trackURL action
@@ -633,7 +641,7 @@ void exceptionHandler(NSException *exception)
         
         [innerConsole clear];
         
-        DebugLog_Ver2(@"globalTrackUrl will be %d",_globalTrackUrl);
+        InnerLog(@"globalTrackUrl will be %d",_globalTrackUrl);
         
     }
     else if(buttonIndex == 5)//====Scroll_UpDown
@@ -642,7 +650,7 @@ void exceptionHandler(NSException *exception)
         if (_go_upDown) {
             [self.consoleView setContentOffset:CGPointMake(0, 0) animated:NO];
         }
-        DebugLog_Ver2(@"Scroll_UpDown will be %d",_go_upDown);
+        InnerLog(@"Scroll_UpDown will be %d",_go_upDown);
         
 
     }

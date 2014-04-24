@@ -47,7 +47,6 @@
 		4AE1F1171902A8CA00EAAE99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1F1161902A8CA00EAAE99 /* main.m */; };
 		4AE1F11B1902A8CA00EAAE99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1F11A1902A8CA00EAAE99 /* AppDelegate.m */; };
 		4AE1F11E1902A8CA00EAAE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE1F11C1902A8CA00EAAE99 /* Main.storyboard */; };
-		4AE1F1211902A8CA00EAAE99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1F1201902A8CA00EAAE99 /* ViewController.m */; };
 		4AE1F1231902A8CA00EAAE99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE1F1221902A8CA00EAAE99 /* Images.xcassets */; };
 		4AE1F12A1902A8CB00EAAE99 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE1F1291902A8CB00EAAE99 /* XCTest.framework */; };
 		4AE1F12B1902A8CB00EAAE99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE1F10A1902A8CA00EAAE99 /* Foundation.framework */; };
@@ -62,6 +61,7 @@
 		4AE1F15B1902BD5900EAAE99 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE1F15A1902BD5900EAAE99 /* QuartzCore.framework */; };
 		4AE1F15E1902BE1C00EAAE99 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1F15C1902BE1C00EAAE99 /* NSString+Extensions.m */; };
 		4AE1F1611902BE7C00EAAE99 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1F1601902BE7C00EAAE99 /* NSDate-Utilities.m */; };
+		8C86E7781908C08700E7224B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86E7771908C08700E7224B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,8 +144,6 @@
 		4AE1F1191902A8CA00EAAE99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AE1F11A1902A8CA00EAAE99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4AE1F11D1902A8CA00EAAE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4AE1F11F1902A8CA00EAAE99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		4AE1F1201902A8CA00EAAE99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		4AE1F1221902A8CA00EAAE99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4AE1F1281902A8CB00EAAE99 /* egsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE1F1291902A8CB00EAAE99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -167,6 +165,9 @@
 		4AE1F15F1902BE7C00EAAE99 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
 		4AE1F1601902BE7C00EAAE99 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
 		4AE1F1621902BF1200EAAE99 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		8C86E7761908C08700E7224B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C86E7771908C08700E7224B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C86E7791908C89900E7224B /* ApiMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiMap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +266,7 @@
 		4AB31D931907B7D200B31E80 /* APIVerb */ = {
 			isa = PBXGroup;
 			children = (
+				8C86E7791908C89900E7224B /* ApiMap.h */,
 				4AB31D941907B7D200B31E80 /* APIClient.h */,
 				4AB31D951907B7D200B31E80 /* APIClient.m */,
 			);
@@ -309,7 +311,7 @@
 				4AE1F1191902A8CA00EAAE99 /* AppDelegate.h */,
 				4AE1F11A1902A8CA00EAAE99 /* AppDelegate.m */,
 				4AE1F11C1902A8CA00EAAE99 /* Main.storyboard */,
-				4AE1F1431902AD0200EAAE99 /* VCHierarchy */,
+				8C86E7751908C08700E7224B /* VCHierarchy */,
 				4AB31D931907B7D200B31E80 /* APIVerb */,
 				4AE1F13F1902AD0200EAAE99 /* dataModel */,
 				4AE1F1411902AD0200EAAE99 /* egsToolkit */,
@@ -389,15 +391,6 @@
 			path = thirdSupportLib;
 			sourceTree = "<group>";
 		};
-		4AE1F1431902AD0200EAAE99 /* VCHierarchy */ = {
-			isa = PBXGroup;
-			children = (
-				4AE1F11F1902A8CA00EAAE99 /* ViewController.h */,
-				4AE1F1201902A8CA00EAAE99 /* ViewController.m */,
-			);
-			path = VCHierarchy;
-			sourceTree = "<group>";
-		};
 		4AE1F1441902B42900EAAE99 /* innerConsole */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,6 +428,15 @@
 				4AE1F1561902BBD000EAAE99 /* innerConsole.m */,
 			);
 			path = innerConsole;
+			sourceTree = "<group>";
+		};
+		8C86E7751908C08700E7224B /* VCHierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				8C86E7761908C08700E7224B /* ViewController.h */,
+				8C86E7771908C08700E7224B /* ViewController.m */,
+			);
+			path = VCHierarchy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -553,11 +555,11 @@
 				4AB31D8E1907B7AD00B31E80 /* UIButton+AFNetworking.m in Sources */,
 				4AB31D8D1907B7AD00B31E80 /* UIAlertView+AFNetworking.m in Sources */,
 				4AE1F1571902BBD000EAAE99 /* innerConsole.m in Sources */,
-				4AE1F1211902A8CA00EAAE99 /* ViewController.m in Sources */,
 				4AB31D431907AE9900B31E80 /* UIDevice+MemoryInfo.m in Sources */,
 				4AB31D891907B7AD00B31E80 /* AFURLResponseSerialization.m in Sources */,
 				4AB31D871907B7AD00B31E80 /* AFURLConnectionOperation.m in Sources */,
 				4AB31D3A1907ADEB00B31E80 /* UIView+treeStruct.m in Sources */,
+				8C86E7781908C08700E7224B /* ViewController.m in Sources */,
 				4AE1F11B1902A8CA00EAAE99 /* AppDelegate.m in Sources */,
 				4AB31D901907B7AD00B31E80 /* UIProgressView+AFNetworking.m in Sources */,
 				4AB31D831907B7AD00B31E80 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -705,12 +707,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nanjie WANG (JMN459K84A)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Engels Lang (AV4MGYBNTP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "egsFramework/egsFramework-Prefix.pch";
 				INFOPLIST_FILE = "egsFramework/egsFramework-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3C7197A8-6F66-4943-BD5B-CD58E2CADC14";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -720,12 +722,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nanjie WANG (JMN459K84A)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Engels Lang (AV4MGYBNTP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "egsFramework/egsFramework-Prefix.pch";
 				INFOPLIST_FILE = "egsFramework/egsFramework-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3C7197A8-6F66-4943-BD5B-CD58E2CADC14";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

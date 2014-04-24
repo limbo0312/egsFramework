@@ -71,7 +71,24 @@
 #pragma mark - RNFrostedSidebarDelegate
 
 - (void)sidebar:(RNFrostedSidebar *)sidebar didTapItemAtIndex:(NSUInteger)index {
-    DebugLog(@"Tapped item at index %i",index);
+    DebugLog(@"Tapped item at index %lu",(unsigned long)index);
+    DebugLog(@"test %@",@"testStr");
+    if (index==0) {
+        [EAlertView showWithMsg:@"获取BitCoinPrice ??" block:^(int btnIndex) {
+            if (btnIndex==0) {
+                
+                 [[APIClient shareClient] GET:kBitCoinMarket
+                                   parameters:nil
+                                      success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                                          InnerLog(@"%@",responseObject);
+                                      }
+                                      failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                          InnerLog(@"%@",error);
+                                      }];
+            }
+        }];
+    }
+    
     if (index == 3) {
         [sidebar dismissAnimated:YES completion:nil];
     }

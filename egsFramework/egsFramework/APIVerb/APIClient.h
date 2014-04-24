@@ -6,8 +6,12 @@
 //  Copyright (c) 2014年 EGS. All rights reserved.
 //
 
-#import "AFHTTPSessionManager.h"
+#import "AFHTTPRequestOperationManager.h"
 
-@interface APIClient : AFHTTPSessionManager
+@interface APIClient :AFHTTPRequestOperationManager
+
+
++(APIClient *)shareClient;
+
 
 @end

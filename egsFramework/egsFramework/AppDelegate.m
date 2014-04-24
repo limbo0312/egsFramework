@@ -15,8 +15,13 @@
 {
     // Override point for customization after application launch.
     
+    //===1  enable innerConsole
     [[innerConsole sharedConsole]  enableConsoleMode];
     [[innerConsole sharedConsole]  open_swizzURLConnection];
+    
+    //===2 mainBuilding VC Hierarchy
+    
+    //default use MainXIB from ViewController
     
     return YES;
 }
