@@ -1,8 +1,8 @@
 //
-//  APIClient.h
+//  wjClient.h
 //  egsFramework
 //
-//  Created by EGS on 14-4-22.
+//  Created by EGS on 14-4-24.
 //  Copyright (c) 2014年 EGS. All rights reserved.
 //
 
@@ -10,10 +10,8 @@
 
 #import "AFHTTPRequestOperationManager.h"
 
-@interface APIClient :AFHTTPRequestOperationManager
+@interface wjClient : AFHTTPRequestOperationManager
 
-
-+(APIClient *)shareClient;
-
++(wjClient *)shareClient;
 
 @end

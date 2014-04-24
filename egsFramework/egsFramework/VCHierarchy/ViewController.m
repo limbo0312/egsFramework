@@ -72,7 +72,6 @@
 
 - (void)sidebar:(RNFrostedSidebar *)sidebar didTapItemAtIndex:(NSUInteger)index {
     DebugLog(@"Tapped item at index %lu",(unsigned long)index);
-    DebugLog(@"test %@",@"testStr");
     if (index==0) {
         [EAlertView showWithMsg:@"获取BitCoinPrice ??" block:^(int btnIndex) {
             if (btnIndex==0) {
@@ -85,6 +84,22 @@
                                       failure:^(AFHTTPRequestOperation *operation, NSError *error) {
                                           InnerLog(@"%@",error);
                                       }];
+            }
+        }];
+    }
+    else if (index==1)
+    {
+        [EAlertView showWithMsg:@"获取wuji_word??" block:^(int btnIndex) {
+            if (btnIndex==0) {
+                
+                [[wjClient shareClient] GET:kWJ_words
+                                  parameters:nil
+                                    success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                                        InnerLog(@"%@",responseObject);
+                                    }
+                                    failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                        InnerLog(@"%@",error);
+                                    }];
             }
         }];
     }

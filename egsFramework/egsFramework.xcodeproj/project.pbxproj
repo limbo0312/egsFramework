@@ -62,6 +62,7 @@
 		4AE1F15E1902BE1C00EAAE99 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1F15C1902BE1C00EAAE99 /* NSString+Extensions.m */; };
 		4AE1F1611902BE7C00EAAE99 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1F1601902BE7C00EAAE99 /* NSDate-Utilities.m */; };
 		8C86E7781908C08700E7224B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86E7771908C08700E7224B /* ViewController.m */; };
+		8C86E77C19090E8000E7224B /* wjClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86E77B19090E8000E7224B /* wjClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +169,8 @@
 		8C86E7761908C08700E7224B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8C86E7771908C08700E7224B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8C86E7791908C89900E7224B /* ApiMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiMap.h; sourceTree = "<group>"; };
+		8C86E77A19090E8000E7224B /* wjClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wjClient.h; sourceTree = "<group>"; };
+		8C86E77B19090E8000E7224B /* wjClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wjClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +272,8 @@
 				8C86E7791908C89900E7224B /* ApiMap.h */,
 				4AB31D941907B7D200B31E80 /* APIClient.h */,
 				4AB31D951907B7D200B31E80 /* APIClient.m */,
+				8C86E77A19090E8000E7224B /* wjClient.h */,
+				8C86E77B19090E8000E7224B /* wjClient.m */,
 			);
 			path = APIVerb;
 			sourceTree = "<group>";
@@ -580,6 +585,7 @@
 				4AB31D921907B7AD00B31E80 /* UIWebView+AFNetworking.m in Sources */,
 				4AB31D3D1907AE1900B31E80 /* UIViewController+ios7match.m in Sources */,
 				4AB31D8A1907B7AD00B31E80 /* AFURLSessionManager.m in Sources */,
+				8C86E77C19090E8000E7224B /* wjClient.m in Sources */,
 				4AB31D961907B7D200B31E80 /* APIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

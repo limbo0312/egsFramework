@@ -25,7 +25,7 @@
                   symbolName = "+[innerConsole log:arguments:]"
                   moduleName = "egsFramework"
                   urlString = "file:///Users/EGS/EGScodeLib/Github/egsFramework/egsFramework/egsFramework/thirdSupportLib/innerConsole/innerConsole/innerConsole.m"
-                  timestampString = "420023158.585462"
+                  timestampString = "420025644.49057"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "233"
@@ -39,7 +39,7 @@
                   symbolName = "+[innerConsole log:arguments:]"
                   moduleName = "egsFramework"
                   urlString = "file:///Users/EGS/EGScodeLib/Github/egsFramework/egsFramework/egsFramework/thirdSupportLib/innerConsole/innerConsole/innerConsole.m"
-                  timestampString = "420023158.585723"
+                  timestampString = "420025644.490951"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "233"
@@ -252,6 +252,70 @@
             startingLineNumber = "904"
             endingLineNumber = "904"
             landmarkName = "-URLSessionDidFinishEventsForBackgroundURLSession:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "egsFramework/VCHierarchy/ViewController.m"
+            timestampString = "420025644.465782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-sidebar:didTapItemAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "egsFramework/VCHierarchy/ViewController.m"
+            timestampString = "420025644.465782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "-sidebar:didTapItemAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "egsFramework/VCHierarchy/ViewController.m"
+            timestampString = "420025644.465782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "-sidebar:didTapItemAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "egsFramework/APIVerb/wjClient.m"
+            timestampString = "420025082.403618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-initCustom"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
