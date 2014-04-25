@@ -63,6 +63,7 @@
 		4AE1F1611902BE7C00EAAE99 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1F1601902BE7C00EAAE99 /* NSDate-Utilities.m */; };
 		8C86E7781908C08700E7224B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86E7771908C08700E7224B /* ViewController.m */; };
 		8C86E77C19090E8000E7224B /* wjClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86E77B19090E8000E7224B /* wjClient.m */; };
+		8C86E783190A3F7900E7224B /* typicalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86E782190A3F7900E7224B /* typicalObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +172,8 @@
 		8C86E7791908C89900E7224B /* ApiMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiMap.h; sourceTree = "<group>"; };
 		8C86E77A19090E8000E7224B /* wjClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wjClient.h; sourceTree = "<group>"; };
 		8C86E77B19090E8000E7224B /* wjClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wjClient.m; sourceTree = "<group>"; };
+		8C86E781190A3F7900E7224B /* typicalObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typicalObject.h; sourceTree = "<group>"; };
+		8C86E782190A3F7900E7224B /* typicalObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = typicalObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,7 +321,7 @@
 				4AE1F11C1902A8CA00EAAE99 /* Main.storyboard */,
 				8C86E7751908C08700E7224B /* VCHierarchy */,
 				4AB31D931907B7D200B31E80 /* APIVerb */,
-				4AE1F13F1902AD0200EAAE99 /* dataModel */,
+				8C86E780190A3F7900E7224B /* dataModel */,
 				4AE1F1411902AD0200EAAE99 /* egsToolkit */,
 				4AE1F1421902AD0200EAAE99 /* thirdSupportLib */,
 				4AE1F1221902A8CA00EAAE99 /* Images.xcassets */,
@@ -354,13 +357,6 @@
 				4AE1F1321902A8CB00EAAE99 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4AE1F13F1902AD0200EAAE99 /* dataModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = dataModel;
 			sourceTree = "<group>";
 		};
 		4AE1F1411902AD0200EAAE99 /* egsToolkit */ = {
@@ -442,6 +438,15 @@
 				8C86E7771908C08700E7224B /* ViewController.m */,
 			);
 			path = VCHierarchy;
+			sourceTree = "<group>";
+		};
+		8C86E780190A3F7900E7224B /* dataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8C86E781190A3F7900E7224B /* typicalObject.h */,
+				8C86E782190A3F7900E7224B /* typicalObject.m */,
+			);
+			path = dataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -575,6 +580,7 @@
 				4AB31D881907B7AD00B31E80 /* AFURLRequestSerialization.m in Sources */,
 				4AB31D851907B7AD00B31E80 /* AFNetworkReachabilityManager.m in Sources */,
 				4AE1F1531902BB7600EAAE99 /* RNFrostedSidebar.m in Sources */,
+				8C86E783190A3F7900E7224B /* typicalObject.m in Sources */,
 				4AB31D8F1907B7AD00B31E80 /* UIImageView+AFNetworking.m in Sources */,
 				4AB31D461907AED200B31E80 /* UIView+perfectCircle.m in Sources */,
 				4AE1F14D1902B42900EAAE99 /* GTMStackTrace.m in Sources */,
