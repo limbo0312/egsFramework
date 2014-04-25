@@ -6,6 +6,20 @@
 //  Copyright (c) 2014年 EGS. All rights reserved.
 //
 
+
+/**
+ *  mantle object
+ *
+ ==demo use==
+ 
+ NSError *error = nil;
+ 
+ XYUser *user = [MTLJSONAdapter modelOfClass:XYUser.class fromJSONDictionary:JSONDictionary error:&error];
+
+ NSDictionary *JSONDictionary = [MTLJSONAdapter JSONDictionaryFromModel:user];
+ 
+ */
+
 #import "MTLModel.h"
 
 typedef enum : NSUInteger {
@@ -14,7 +28,7 @@ typedef enum : NSUInteger {
 } GHIssueState;
 
 
-@interface mtlObject : MTLModel
+@interface mtlObject : MTLModel <MTLJSONSerializing>
 
 @property (nonatomic, copy, readonly) NSURL *URL;
 @property (nonatomic, copy, readonly) NSURL *HTMLURL;
