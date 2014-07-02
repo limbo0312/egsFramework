@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>522EE648-7508-4673-9F96-5C7BEF3AE6D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>snowcrash</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5DF6A877-CCA6-4EEB-923E-995B9F6BB867</key>
+		<string>https://github.com/apiaryio/sundown.git</string>
+		<key>95358FEA-1B76-41CB-8394-ED8D72AAEA47</key>
+		<string>https://github.com/apiaryio/snowcrash.git</string>
+		<key>98E516DF-656C-453D-B774-5A471E0A4C57</key>
+		<string>https://github.com/apiaryio/cmdline.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>snowcrash.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5DF6A877-CCA6-4EEB-923E-995B9F6BB867</key>
+		<string>../../sundown</string>
+		<key>95358FEA-1B76-41CB-8394-ED8D72AAEA47</key>
+		<string>../..</string>
+		<key>98E516DF-656C-453D-B774-5A471E0A4C57</key>
+		<string>../../cmdline</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/apiaryio/snowcrash.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>95358FEA-1B76-41CB-8394-ED8D72AAEA47</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>98E516DF-656C-453D-B774-5A471E0A4C57</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cmdline</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>95358FEA-1B76-41CB-8394-ED8D72AAEA47</string>
+			<key>IDESourceControlWCCName</key>
+			<string>snowcrash</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5DF6A877-CCA6-4EEB-923E-995B9F6BB867</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sundown</string>
+		</dict>
+	</array>
+</dict>
+</plist>
